@@ -1,11 +1,4 @@
-#include<iostream>
-#include<iomanip>
-#include<algorithm>
-#include<cstring>
-#include<map>
-#include<math.h>
 #include<bits/stdc++.h>
-
 using namespace std;
 
 int rounding( double x)
@@ -72,9 +65,7 @@ main()
         {
             k=it->second;
             sum+=(double)k*(log10((double)cnt)-log10((double)k));
-            //cout<<it->first<<" "<<it->second<<endl;
         }
-        //cout<<sum<<" ";
         entropy=sum/(double)cnt;
         printf("%.1lf ",entropy);
         maximum_entropy=log10((double)cnt);
