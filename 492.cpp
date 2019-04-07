@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 
 bool isvowel(char ch)
@@ -13,6 +12,7 @@ bool isvowel(char ch)
 	}
 	return false;
 }
+
 void wordprocess(char x[], char y[])
 {
 	int i, k = -1;
@@ -38,6 +38,7 @@ void wordprocess(char x[], char y[])
 		y[++k] = '\0';
 	}
 }
+
 void abc(char ch[])
 {
 	char ch2[1000000], ch3[1000000];
@@ -66,8 +67,6 @@ void abc(char ch[])
 }
 main()
 {
-    //freopen("in.txt","r",stdin);
-    //freopen("out0.txt","w",stdout);
 	char ch, ch2[1000000];
 	int i = 0, j, k;
 	while ((ch = getchar()) != EOF)
