@@ -13,7 +13,6 @@ main()
         mp[s1]=cnt;
         cnt++;
     }
-    //cout<<mp.size()<<endl;
     for(i=0; i<str.size(); i++)
     {
         for(j=i+1; j<str.size(); j++)
@@ -21,7 +20,6 @@ main()
             string s2;
             s2+=str[i];
             s2+=str[j];
-            //cout<<s2<<endl;
             mp[s2]=cnt;
             cnt++;
         }
@@ -84,7 +82,6 @@ main()
             }
         }
     }
-    //cout<<mp.size()<<endl;
     while(cin>>str2)
     {
         cout<<mp[str2]<<endl;
