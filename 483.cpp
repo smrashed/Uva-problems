@@ -1,7 +1,3 @@
-//*****************S.M.Rashedul Islam***************//
-//******Dept.of Computer Science & Engineering******//
-//************Islamic University,Kushtia************//
-
 #include<bits/stdc++.h>
 using namespace std;
 
