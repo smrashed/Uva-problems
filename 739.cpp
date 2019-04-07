@@ -1,6 +1,3 @@
-///..........................S.M.RASHEDUL ISLAM.........................///
-///.................DEPT.OF COMPUTER SCIENCE & ENGINEERING..............///
-///.......................ISLAMIC UNIVERSITY,KUSHTIA....................///
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -10,7 +7,7 @@ main()
     char convert,container;
     char ch[101];
     int i,j,k,l,s,check;
-    for(i=65; i<=90; i++)//convert integer into character & store given soundex code corresponding character
+    for(i=65; i<=90; i++)
     {
         if(i==65 || i==69 || i==72 || i==73 \
                 || i==79 || i==85 || i==87 || i==89)
@@ -61,18 +58,18 @@ main()
         container=ch[0];
         k=-1;
         s=-1;
-        for(i=0; i<l; i++)//store values from mp into ara[]
+        for(i=0; i<l; i++)
         {
             ara[i]=mp[ch[i]];
         }
-        for(j=0; j<l-1; j++)//store different code digitvalues into ara2[]
+        for(j=0; j<l-1; j++)
         {
             if(ara[j]!=ara[j+1])
             {
                 ara2[++k]=ara[j+1];
             }
         }
-        for(j=0; j<=k; j++)//store non zero element's of ara2[] into ara3[]
+        for(j=0; j<=k; j++)
         {
             if(ara2[j]!=0)
             {
@@ -81,7 +78,7 @@ main()
                     break;
             }
         }
-        for(i=l+10; i<=34; i++)//print space after the string
+        for(i=l+10; i<=34; i++)
         {
             printf(" ");
         }
